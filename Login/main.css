@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    font-size: 90%;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(hill.ping.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    background-size: cover;
+    margin: auto;
+}
+.student{
+
+    width: 380px;
+    height: 550px;
+    display: flex;
+    border: 1px solid rgb(234,234,234);
+    background:#a68ac9;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    z-index: 1;
+    padding: 0 1rem;
+    box-shadow:3px 3px 5px 6px #ccc;
+}
+
+.overlay{
+    position: absolute;
+}
+
+
+.TitleDiv{
+position: relative;
+width: 105%;
+margin: 25px auto 15px;
+text-align: center;
+transform: translateY(-10rem);
+}
+
+.row{
+
+    display: grid;
+    position: relative;
+    gap:1rem;
+    z-index: 1000;
+    transform: translateY(-4rem);  
+    padding-bottom: 0rem;
+}
+.student1{
+    width: 380px;
+    height: 510px;
+    display: flex;
+    border: 1px solid rgb(234,234,234);
+    background:#a68ac9;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    z-index: 1;
+    padding: 0 1rem;
+    box-shadow:3px 3px 5px 6px #ccc;
+
+}
+
+.TitleDiv1{
+    position: relative;
+    width: 200%;
+    margin: 25px auto 15px;
+    text-align: center;
+    transform: translateY(-6rem);
+    display: block;
+
+}
+
+input{
+    border: none;
+    outline: none;
+    color: rgb(46,46,71);
+    padding: 0rem;
+    border-radius: 7px;
+    font-style: italic;
+    width: 100%;
+    padding: .7rem;
+    background-color: rgb(241,241,241);
+    
+}
+
+.login{
+
+    text-decoration: none;
+    cursor: pointer;
+    font-style: oblique;
+    color: black;
+    font-size: 15px;
+    transform: translateY(1.5rem);
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    font-style: oblique;
+    color: black;
+    font-size: 15px;
+    transform: translateY(1.5rem);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    &:hover{
+        background: rgb(41, 41, 158);
+    }
+}
+
+.TitleDiv{
+
+position: relative;
+width: 125%;
+margin: 25px auto 15px;
+text-align: center;
+transform: translateY(-4rem);
+}
+label{
+    display: block;
+   font-size: 15px;
+   padding-bottom: 1rem;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   transform: translateY(1rem);
+}
+
+
+
+
+
+
+
